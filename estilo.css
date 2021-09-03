@@ -174,7 +174,7 @@ h1{
 }
 
 .neon {
-    font-size: 75px;
+    font-size: 305%;
     letter-spacing:2px;
     color: red;
     text-shadow: 0 0 2px , 0 0 5px rgb(250, 86, 26), 0 0 10px rgb(248, 87, 28), 0 0 15px red, 0 0 20px red;
