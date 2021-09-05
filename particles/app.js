@@ -12,7 +12,7 @@ particlesJS(
             "value": "#fff"
           },
           "shape": {
-            "type": "circle",
+            "type": "image",
             "stroke": {
               "width": 2,
               "color": "#dcd5d5"
@@ -21,7 +21,7 @@ particlesJS(
               "nb_sides": 5
             },
             "image": {
-              "src": "img/github.svg",
+              "src": "img/hoja.png",
               "width": 500,
               "height": 1000
             }
@@ -37,7 +37,7 @@ particlesJS(
             }
           },
           "size": {
-            "value": 5,
+            "value": 20,
             "random": true,
             "anim": {
               "enable": false,
@@ -55,7 +55,7 @@ particlesJS(
           },
           "move": {
             "enable": true,
-            "speed": 12.819280197416926,
+            "speed": 7,
             "direction": "bottom-left",
             "random": false,
             "straight": false,
@@ -73,7 +73,7 @@ particlesJS(
           "events": {
             "onhover": {
               "enable": true,
-              "mode": "repulse"
+              "mode": "grab"
             },
             "onclick": {
               "enable": true,
