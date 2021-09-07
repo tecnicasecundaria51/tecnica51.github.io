@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="stylesheet" href="estilo.css" />
+    <link rel="preload">
+    <title>Escuela Secundaria Tecnica No.51</title>
+
   </head>
   <body>
     <div id="particles-js"></div>
@@ -146,8 +149,12 @@
     <!-- video -->
     <div class="py-5"></div>
     <div class="py-5 m-auto text-center w-100 ">
-      <video loading="lazy" id="video" class="" src="videos/VID-20210830-WA0000.mp4" width="80%" height="80%" controls autoplay>
+      <video loading="lazy" id="video" class="" src="videos/welcome.mp4" width="80%" height="100%" controls autoplay>
     </div>
+    <!-- maestros -->
+    <form id="col-xs-6" class="p-5 m-auto col-sm-6 col-md-4 col-lg-4 rounded-pill col-5" action="/maestros/index.html" >
+      <button class="p-2 text-light text-uppercase bg-warning rounded-pill col-12 fs-5 p-3" type="submit">Presentacion de Maestros</button>
+   </form>
     <!-- Aviso de Libros -->
 
     <section>
@@ -171,7 +178,7 @@
     <div  class="clearfix py-5"></div>
     <div id="video" class="py-5 m-auto text-center w-100">
       <h2 class="text-white fs-2">ENTREGA DE LIBROS A PRIMEROS</h2>
-      <img loading="lazy" id="video" class="col-8 col-xs-6 img-fluid" src="img/CALENDARIO LIBROS PRIMERO10241024_1.jpg" alt="">
+      <img loading="lazy" id="video" class=" col-8 col-xs-6 img-fluid" src="img/CALENDARIO LIBROS PRIMERO10241024_1.jpg" alt="">
     </div>
         <!--Libros segundos -->
     <div class="clearfix py-5"></div>
@@ -183,7 +190,7 @@
     <div class="clearfix py-5"></div>
     <div id="video" class="py-5 m-auto text-center w-100">
       <h2 class="text-white fs-2">ENTREGA DE LIBROS A TERCEROS</h2>
-      <img loading="lazy" id="video" class="col-8 col-xs-6 img-fluid" src="img/ENTREGA DE LIBROS TERCER GRADO_page-0001.jpg" alt="">
+      <img loading="lazy" id="video" class="col-8 col-xs-6 img-fluid" src="img/ENTREGA DE LIBROS TERCER GRADO_page-0001.jpg" alt="" >
     </div>
     <!-- formulario -->
     <div class="clearfix pt-5 "></div>
@@ -221,22 +228,22 @@
         </div>
         <div id="asesores-1" class="carousel-inner">
           <div class="carousel-item active">
-            <img loading="lazy" src="img/asesores1.jpeg" class="d-block w-100" alt="...">
+            <img loading="lazy" src="img/asesores1.jpeg" class="d-block m-auto w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img loading="lazy" src="img/asesores2.jpeg" class="d-block w-100" alt="...">
+            <img loading="lazy" src="img/asesores2.jpeg" class="d-block m-auto w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img loading="lazy" src="img/asesores3.jpeg" class="d-block w-100" alt="...">
+            <img loading="lazy" src="img/asesores3.jpeg" class="d-block m-auto w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="fs-1 pe-3 text-danger" aria-hidden="true"><</span>
-          <span class="visually-hidden d-block">Previous</span>
+        <button class="carousel-control-prev py-3" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class=" fs-1 ps-3 text-danger" aria-hidden="true">></span>
-          <span class="visually-hidden d-block">Next</span>
+        <button class="carousel-control-next py-3" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
       </div>
     <!-- MAPA -->
@@ -267,12 +274,68 @@
         462 215 38 20<br />
       </p>
     </div>
-<!-- <div id="boton-top" class="text-center bg-primary fixed-bottom">
-      <a class="text-decoration-none text-danger" href="#"><h1 style="font-size: 80px;">↑</h1></a>
-    </div> -->
+
     <footer class="text-center fs-5">
-      Desarrollado por Gabriel flores y José Raya © 2021
+      Desarrollado por Gabriel Flores y José Manuel Raya © 2021
     </footer>
+    <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="8000">
+          <img src="t-v/t-v1.jpeg" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="8000">
+          <img src="t-v/t-v2.jpeg" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="8000">
+          <img src="t-v/t-v3.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="8000">
+          <img src="t-v/t-v4.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v5.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v6.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v7.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v8.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v9.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v10.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v11.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v12.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v13.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v14.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="t-v/t-v15.png" class="d-block m-auto col-xs-6" width="90%" height="480px" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev pe-4" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark " aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next ps-4" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark " aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="clearfix py-5"></div>
     <script src="particles/particles.min.js"></script>
     <script src="particles/app.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
