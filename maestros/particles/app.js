@@ -42,7 +42,7 @@ particlesJS(
             "anim": {
               "enable": false,
               "speed": 40,
-              "size_min": 20,
+              "size_min": 0.1,
               "sync": false
             }
           },
@@ -55,7 +55,7 @@ particlesJS(
           },
           "move": {
             "enable": true,
-            "speed": 5,
+            "speed": 4,
             "direction": "bottom-left",
             "random": false,
             "straight": false,

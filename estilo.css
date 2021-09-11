@@ -180,7 +180,7 @@ h1{
     text-shadow: 0 0 2px , 0 0 5px rgb(250, 86, 26), 0 0 10px rgb(248, 87, 28), 0 0 15px red, 0 0 20px red;
     -webkit-text-stroke-color:#000000;
     -webkit-text-stroke-width:.2mm;
-    animation: parpadear 3.5s infinite alternate-reverse;
+    animation: parpadear 1.5s infinite alternate-reverse;
 }
 
 @keyframes parpadear{
