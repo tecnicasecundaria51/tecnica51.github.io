@@ -1,0 +1,238 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 15px;
+    background-color: cornflowerblue;
+}
+html::-webkit-scrollbar-thumb{
+    background: linear-gradient( rgba(25,215,148,1) 16%, rgba(53,233,196,1) 49%, rgba(0,212,255,1) 81%);
+    border-radius: 10px;
+}
+
+body {
+    background: linear-gradient(100deg, #da5b34, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#barra{
+    height: 80px;
+    background-color: rgb(6, 39, 58);
+    border-radius: 0px 0px 30px 30px;
+}
+
+#hola :hover {
+    background-color: #20e3b2;
+    transition: all 500ms;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 2px 5px 0px 0px #000000;
+    transform: scale(1.07);
+
+}
+#lis{
+    background-color: #e73c7e;
+    font-size: 20px;
+}
+
+#hola{
+    border-radius: 30px 30px 30px 30px;
+    background-color: darkcyan;
+}
+
+#banner{
+    padding-top: 100px;
+    box-shadow: 4px 4px 10px 5px #000000;
+    border-radius: 30px;
+    padding-bottom: 40px;
+
+}
+
+#fondo{
+    border-radius: 15px ;
+    box-shadow: 4px 4px 13px 7px #000000;
+}
+
+#aviso{
+    text-align: center;
+    color:  red;
+    font-size: 55px;
+    text-shadow: 0px 5px 10px red;
+    letter-spacing: 10px;
+}
+#caja{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #000000;
+    padding-bottom: 30px;
+    box-shadow: 4px 4px 13px 7px #000000;
+    border-radius: 30px;
+}
+
+/* #horarios{
+    box-shadow: 4px 4px 13px 7px #000000;
+    padding-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 40px;
+} */
+
+
+#cont{
+  background-color: rgb(22, 12, 88);
+  border-radius: 15px;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;
+}
+
+#box-mapa{
+    box-shadow: 4px 4px 13px 7px #000000;
+    border-radius: 15px;
+}
+iframe{
+    border-radius: 15px;
+}
+/* 
+#boton-top{
+    width: 0px;
+    height: 45px;
+    border-radius: 100%;
+    right: 0px;
+} */
+
+@media screen and (max-width: 575px) {
+    #col-xs-6 {
+        width: 50.33%;
+    }
+    .col-xs-6{
+        width: 90%;
+    }
+    #col-xs-5{
+        width:100%;
+    }
+}
+/* #box-tips{
+    box-shadow: 4px 4px 13px 7px #000000;
+    padding-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 40px;
+    width: 95%;
+    height: 100%;
+} */
+
+
+
+#img-h-t{
+    box-shadow: 4px 4px 13px 7px #000000;
+    border-radius: 30px;
+    height: 680px;
+
+}
+
+h1{
+    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black, 1px 7px 1px black;
+
+}
+
+#video{
+    box-shadow: 4px 4px 13px 7px #000000;
+    border-radius: 30px;
+
+}
+
+#usaer{
+    padding-top: 100px;
+    box-shadow: 4px 4px 10px 5px #000000;
+    border-radius: 30px;
+    padding-bottom: 40px;
+
+}
+#deteccion{
+    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;
+    color: red;
+}
+
+#deteccion-parrafo{
+    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black;
+
+}
+
+#entradas{
+    padding-top: 20px;
+    box-shadow: 4px 4px 10px 5px #000000;
+    border-radius: 30px;
+    padding-bottom: 20px;
+
+}
+
+.neon {
+    font-size: 280%;
+    letter-spacing:2px;
+    color: red;
+    text-shadow: 0 0 2px , 0 0 5px rgb(250, 86, 26), 0 0 10px rgb(248, 87, 28), 0 0 15px red, 0 0 20px red;
+    -webkit-text-stroke-color:#000000;
+    -webkit-text-stroke-width:.2mm;
+    animation: parpadear 1.5s infinite alternate-reverse;
+}
+
+@keyframes parpadear{
+    to{
+        color: red;
+        text-shadow: none;
+    }
+}
+
+@keyframes parpadear{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+}
+
+
+/* #gear{
+    animation-name: rodar;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes rodar {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+    
+} */
+
